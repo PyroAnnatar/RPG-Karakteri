@@ -59,6 +59,18 @@ export default function App() {
     ],
     stats: { hp: 56, mp: 34, strength: 65 },
   });
+  // const wacky = Math.floor(Math.random()*(attackOptionsList.length-6))
+
+  //   setCharacterData((prev) => {
+  //     const newCharacter = {
+  //       hat:Boolean(Math.floor(Math.random() * 1)),
+  //       shield:Boolean(Math.floor(Math.random() * 1)),
+  //       weapon:"sword",
+  //       name:namesList[Math.floor(Math.random()*namesList.length)],
+  //       attackOptions:attackOptionsList.slice()
+  //     };
+
+  //   });
   /* ------------------------------------------------------------------
 
   
