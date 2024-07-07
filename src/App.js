@@ -44,7 +44,21 @@ export default function App() {
     */
 
   /* ️⬇️️ ------------------ Kodunuzu aşağıya yazın -----------------️️ ⬇️️ */
-  // const [characterData,setCharacterData] = useState({hat:true,shield:true,weapon:"sword",name:"Drakoan",attackOptions:})
+  const [characterData, setCharacterData] = useState({
+    hat: true,
+    shield: true,
+    weapon: "sword",
+    name: "Drakoan",
+    attackOptions: [
+      "Rüzgar Oku",
+      "Alevli Fırtına",
+      "Güneş Patlaması",
+      "Işık Karnavalı",
+      "Hayatın İntikamı",
+      "Karanlığın Çağrısı",
+    ],
+    stats: { hp: 56, mp: 34, strength: 65 },
+  });
   /* ------------------------------------------------------------------
 
   
